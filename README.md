@@ -9,7 +9,7 @@
 ## Alunos integrantes da equipe
 
 * [Amanda Canizela Guimarães](https://github.com/amandacanizela)
-* [Ariel Inácio Jordão Coelho)](https://github.com/Ariel-Inacio)
+* [Ariel Inácio Jordão Coelho](https://github.com/Ariel-Inacio)
 * [Júlia de Mello Teixeira](https://github.com/jujupoipo)
 * [Pedro Vitor Martins Caiafa Andrade](https://github.com/Pedro0826)
 
