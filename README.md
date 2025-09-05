@@ -1,15 +1,15 @@
 ![ICEI](images/icei-pucminas.png)
 
-# Nome do projeto
+# Nome do projeto 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+...... HIPERCOMPRAS ......
 
 > Descreva, em um ou dois parágrafos, um resumo do projeto (principais objetivos e justificativa).
 
 ## Alunos integrantes da equipe
 
 * [Júlia de Mello Teixeira](https://github.com/jujupoipo)
-* [Nome completo do aluno 2 (com link para Github)](https://github.com/aluno2)
+* [Amanda Canizela Guimarães](https://github.com/amandacanizela)
 * [Nome completo do aluno 3 (com link para Github)](https://github.com/aluno3)
 * [Nome completo do aluno 4 (com link para Github)](https://github.com/aluno4)
 * [Nome completo do aluno 5 (com link para Github)](https://github.com/aluno5)
