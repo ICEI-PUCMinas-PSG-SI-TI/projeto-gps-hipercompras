@@ -89,46 +89,29 @@
 
 ## Identificação das Partes Interessadas
 
+## Identificação das Partes Interessadas
+
 | Nome            | Posição / Cargo | Papel Projeto | E-mail      | Telefone    |
 |-----------------|-----------------|---------------|-------------|-------------|
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
+|Amanda Canizela Guimaraes                |Desenvolvedor Frontend                 |Estruturar as interfaces do sistema.               |amanda.canizela@gmail.com             |(31)98407-0624             |
+|Ariel Inácio Jordão Coelho                  |UX/UI Designer                 |Tornar o site responsável e agradável para o usuário               |arielijrdao@gmail.com             |(31)98606-6899             |
+|Júlia de Mello                 |Scrum Master / Tester                 |Definir prioridades do produto e garantir sua qualidade com testes.                |jujupoipo200005@gmail.com             |(31)98750-8404             |
+|Pedro Vitor Caiafa                 |Desenvolvedor Backend                 |Estruturar o funcionamento e lógica interna do sistema.               |pedrovitor0826@gmail.com             |(35)99977-3409             |
+|PUC Minas                 |Investidor                 |Investir               |comunicacao.lourdes@pucminas.br             |(31)3319-4444             |
+|Pedro Felipe (Professor)                 |Cliente                 |Define o que precisa e valida o resultado do projeto.               |             |             |
 
-> Opções de identificação dos stakeholders:
-> - Nome: nome da parte interessada (inclui funcionários da empresa e do cliente)
-> - Posição / Cargo: Identificação do cargo da parte interessada
-> - - Ex.: Gerente de TI, Funcionário da Linha de Produção, Presidente, Analista de Sistema do Cliente, Desenvolvedor, etc.
-> - Papel no Projeto: Papel da pessoa no projeto
-> - - Ex.: Desenvolvedor, Analista de Requisitos, Analista de Testes, Product Owner, etc.
-> - E-mail: E-mail do Stakeholder (*não utilizar informações pessoais*)
-> - Telefone: Telefone do Stakeholder, incluindo WhatsApp (*não utilizar informações pessoais*)
 
 ## Avaliação das Partes Interessadas
 
 | Nome            | Expectativa no Projeto | Influência    | Importância / Poder | Apoio       | Observações   |
 |-----------------|------------------------|---------------|---------------------|-------------|---------------|
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
+|Amanda Canizela Guimaraes                 |Que o projeto seja popular                        |Média               |Média                     |Apoiador             |Envolvida com a experiencia do usuário e usabilidade              |
+|Ariel Inácio Jordão Coelho                 |Ser intuitivo e inovador                        |Média               |Média                     |Apoiador             |Traz boas ideias para inovação               |
+|Júlia de Mello                 |Que o site ajude muitas pessoas                        |Alta               |Alta                     |Apoiador             |Deve ser consultada em decisões-chave              |
+|Pedro Vitor Caiafa                 |Alcançar novos clientes                        |Média               |Média                     |Apoiador             |Interessado em testar novas funcionalidades               |
+|PUC Minas                 |                        |Baixa               |Alta                     |Neutro             |Exige relatórios formais e alinhamento constante               |
+|Pedro Felipe (Professor)                 |                        |Alta               |Alta                     |Apoiador             |Responsável pela orientação do projeto|
 
-> Opções de avaliação:
-> - Expectativa: descrição da expectativa da parte interessada no projeto.
-> - - Ex.: Diminuição do tempo de realização das tarefas, aumento da produtividade, aumento da satisfação do cliente, etc.
-> - Influência: Alta, Média, Baixa
-> - Importância: Alta, Média, Baixa
-> - Apoio: Positivo, Negativo, Neutro
-> - Observações: Informações adicionais, para o cliente.
 
 ```diff
 + Tarefa 01
@@ -310,46 +293,44 @@ A tabela a seguir, identifique os marcos do projeto e os entregáveis previstos 
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O desenvolvimento do **HiperCompras** será realizado utilizando uma abordagem **ágil**, priorizando a entrega contínua de funcionalidades e a adaptação às necessidades do projeto. O fluxo de trabalho será organizado em **sprints semanais**, com reuniões periódicas para alinhamento e acompanhamento do progresso.
 
-> Nesta parte do documento, você deve apresentar a metodologia adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas e as ferramentas empregadas.
->
-> Coloque detalhes sobre o processo utilizado e a implementação do Framework Scrum seguido pelo grupo. 
-> O grupo deverá gerenciar as tarefas utilizando o GitHub Project para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
-> 
-> **Links Úteis**:
-> - [Github Project](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project)
-> - [O que é o GitHub Projects? | Guia de Iniciantes](https://www.youtube.com/watch?v=vxYTpsFKdiQ&ab_channel=JulioArruda)
-> - [Introduction to GitHub Project Boards](https://www.youtube.com/watch?v=idZyqNIrt84&list=PLiO7XHcmTslc5hGrbnnmHIb0SeJLTpOEu&ab_channel=MickeyGousset)
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+### Tecnologias Utilizadas
+- **Frontend:** [React.js](https://react.dev/)  
+  Utilizado para construção de uma interface dinâmica, responsiva e intuitiva, proporcionando uma melhor experiência ao usuário.
+- **Backend:** [Node.js](https://nodejs.org/)  
+  Responsável pela lógica do sistema, gerenciamento de rotas, integração com banco de dados e comunicação com o frontend via **API REST**.
+- **Banco de Dados:** *(definir futuramente — exemplo: MongoDB, MySQL ou PostgreSQL)*  
+  Será utilizado para armazenar informações como produtos, usuários, pedidos, reservas e pontos.
+- **Controle de Versão:** [Git](https://git-scm.com/)  
+  Gerenciamento do código-fonte de forma colaborativa, utilizando o **GitHub** para hospedagem e versionamento do projeto.
+
+### Organização e Planejamento
+- **Divisão de tarefas:** cada integrante da equipe será responsável por partes específicas do projeto (frontend, backend, banco de dados, testes).
+- **Kanban:** utilização de um quadro no [GitHub Projects](https://github.com/) para acompanhamento de tarefas, prazos e prioridades.
+- **Reuniões semanais:** para acompanhamento do progresso e revisão de funcionalidades implementadas.
 
 ## Divisão de Papéis
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
-> Indique as responsabilidades de cada membro do grupo no projeto.
-
+- **Amanda** — *Frontend Developer*: responsável pela implementação da interface e interação do usuário.
+- **Ariel Inácio** — *UI/UX Designer*: responsável pelo design, prototipagem e experiência do usuário.
+- **Júlia de Mello** — *Gerente de Projeto*: responsável pelo planejamento, acompanhamento e organização das etapas do desenvolvimento.
+- **Pedro Vitor Caiafa** — *Backend Developer*: responsável pela lógica do sistema, integrações
+- 
 ## Ferramentas
-
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
-
-> Liste as ferramentas empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
-> Todas as ferramentas utilizadas devem ser listadas.
-> Qualquer tipo de ferramenta que for utilizada para construção de um artefato deve ser identificada, uma vez que podem ser necessárias alterações.
-> A necessidade de uso de licenças e possíveis custos relacionados devem ser indicados.
 
 | Ambiente              | Plataforma         | Link de Acesso             | Justificativa |
 |-----------------------|--------------------|----------------------------|---------------|
-| Quadro Kanban         | Github             | https://github.com/XXXXXXX | Centralização e organização do projeto no próprio repositório. |
-| Repositório de código | GitHub             | https://github.com/XXXXXXX |               |
+| Quadro Kanban         | Github             | [https://github.com/XXXXXXX](https://github.com/orgs/ICEI-PUCMinas-PSG-SI-TI/projects/148) | Centralização e organização do projeto no próprio repositório. |
+| Repositório de código | GitHub             | [https://github.com/XXXXXXX](https://github.com/ICEI-PUCMinas-PSG-SI-TI/projeto-gps-hipercompras) |               |
 | Protótipo Interativo  | MavelApp ou Figma  | https://figma.com/XXXXXXX  |               |
-| Documentos Textuais   | LibreOffice Writer | N/A                        |               |
-| Planilhas e Gráficos  | Google Planilhas   | https://docs.google.com/   |               |
+| Documentos Textuais   | Word e Google Docx | N/A                        |               |
+| Planilhas e Gráficos  | Google Sheets e Excel   | N/A|               |
 | EAP / WBS             | | | |
 | Cronograma do Projeto | | | |
 | Matriz RACI           | | | |
+| **React.js**         | Desenvolvimento do **frontend**                |  | Escolhido por sua eficiência na criação de interfaces dinâmicas, responsivas e modulares. |
+| **Node.js**          | Desenvolvimento do **backend**                 |  | Permite construir APIs rápidas e escaláveis, facilitando a comunicação entre frontend e banco de dados. |
+| **Visual Studio Code** | Ambiente de desenvolvimento integrado (IDE)   |  | Editor leve, rápido e com grande suporte para **React** e **Node.js**. |
 
 ```diff
 + Tarefa 03:
