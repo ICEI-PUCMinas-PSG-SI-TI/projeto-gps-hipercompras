@@ -89,46 +89,29 @@
 
 ## Identificação das Partes Interessadas
 
+## Identificação das Partes Interessadas
+
 | Nome            | Posição / Cargo | Papel Projeto | E-mail      | Telefone    |
 |-----------------|-----------------|---------------|-------------|-------------|
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
+|Amanda Canizela Guimaraes                |Desenvolvedor Frontend                 |Estruturar as interfaces do sistema.               |amanda.canizela@gmail.com             |(31)98407-0624             |
+|Ariel Inácio Jordão Coelho                  |UX/UI Designer                 |Tornar o site responsável e agradável para o usuário               |arielijrdao@gmail.com             |(31)98606-6899             |
+|Júlia de Mello                 |Scrum Master / Tester                 |Definir prioridades do produto e garantir sua qualidade com testes.                |jujupoipo200005@gmail.com             |(31)98750-8404             |
+|Pedro Vitor Caiafa                 |Desenvolvedor Backend                 |Estruturar o funcionamento e lógica interna do sistema.               |pedrovitor0826@gmail.com             |(35)99977-3409             |
+|PUC Minas                 |Investidor                 |Investir               |comunicacao.lourdes@pucminas.br             |(31)3319-4444             |
+|Pedro Felipe (Professor)                 |Cliente                 |Define o que precisa e valida o resultado do projeto.               |             |             |
 
-> Opções de identificação dos stakeholders:
-> - Nome: nome da parte interessada (inclui funcionários da empresa e do cliente)
-> - Posição / Cargo: Identificação do cargo da parte interessada
-> - - Ex.: Gerente de TI, Funcionário da Linha de Produção, Presidente, Analista de Sistema do Cliente, Desenvolvedor, etc.
-> - Papel no Projeto: Papel da pessoa no projeto
-> - - Ex.: Desenvolvedor, Analista de Requisitos, Analista de Testes, Product Owner, etc.
-> - E-mail: E-mail do Stakeholder (*não utilizar informações pessoais*)
-> - Telefone: Telefone do Stakeholder, incluindo WhatsApp (*não utilizar informações pessoais*)
 
 ## Avaliação das Partes Interessadas
 
 | Nome            | Expectativa no Projeto | Influência    | Importância / Poder | Apoio       | Observações   |
 |-----------------|------------------------|---------------|---------------------|-------------|---------------|
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
+|Amanda Canizela Guimaraes                 |Que o projeto seja popular                        |Média               |Média                     |Apoiador             |Envolvida com a experiencia do usuário e usabilidade              |
+|Ariel Inácio Jordão Coelho                 |Ser intuitivo e inovador                        |Média               |Média                     |Apoiador             |Traz boas ideias para inovação               |
+|Júlia de Mello                 |Que o site ajude muitas pessoas                        |Alta               |Alta                     |Apoiador             |Deve ser consultada em decisões-chave              |
+|Pedro Vitor Caiafa                 |Alcançar novos clientes                        |Média               |Média                     |Apoiador             |Interessado em testar novas funcionalidades               |
+|PUC Minas                 |                        |Baixa               |Alta                     |Neutro             |Exige relatórios formais e alinhamento constante               |
+|Pedro Felipe (Professor)                 |                        |Alta               |Alta                     |Apoiador             |Responsável pela orientação do projeto|
 
-> Opções de avaliação:
-> - Expectativa: descrição da expectativa da parte interessada no projeto.
-> - - Ex.: Diminuição do tempo de realização das tarefas, aumento da produtividade, aumento da satisfação do cliente, etc.
-> - Influência: Alta, Média, Baixa
-> - Importância: Alta, Média, Baixa
-> - Apoio: Positivo, Negativo, Neutro
-> - Observações: Informações adicionais, para o cliente.
 
 ```diff
 + Tarefa 01
