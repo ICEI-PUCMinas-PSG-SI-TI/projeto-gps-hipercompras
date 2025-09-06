@@ -51,43 +51,23 @@
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Aqui você deve descrever os objetivos do trabalho.
-> Apresente um Objetivo Geral, sintetizado em uma única frase.
-> Apresente também 3 ou 4 objetivos específicos (sub-produtos do sistema ou objetivos extras que podem ser alcançados pela construção do software).
-> 
-> **Link Útil**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Criar um aplicativo que funcione para facilitar as compras do cliente do
+supermercado HiperBarato. Com sistema de pontos e pré-pagamento para
+uso do estacionamento local.
 
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Aqui você deve descrever os benefícios esperados pela construção do projeto.
-> As justificativas do projeto explicam as razões e a necessidade da iniciativa.
-> Elas demonstram como o projeto atende a uma demanda específica, resolve um problema ou aproveita uma oportunidade identificada.
-> Além disso, definem os benefícios esperados e o impacto previsto para a organização ou a comunidade. 
+- Facilidade nas compras online
+- Aumentar fluxo de compras durante a semana
+- Atrair consumidores para o programa de pontos do supermercado
 
 ## Critérios de Sucesso
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Os critérios de sucesso indicam uma forma avaliar o êxito do trabalho e analisar se o projeto realmente alcançou os objetivos estabelecidos. 
-> Esses critérios geralmente abrangem diversas dimensões, incluindo a entrega dentro do prazo e orçamento estipulados, a satisfação do cliente, a qualidade do produto ou serviço final, e a eficiência na utilização de recursos. 
-> Além disso, a capacidade de atender aos requisitos e expectativas das partes interessadas, bem como a gestão eficaz de riscos, são considerados aspectos importantes para determinar o sucesso de um projeto. 
+Site funcional, intuitivo para o usuário. Interfaces dentro da estética visual
+prevista pelo cliente.
 
 # Partes Interessadas
-
-> Relacione as partes interessadas no seu projeto. 
-> Você deve descrever as partes interessadas e indicar qual o nível de influência em relação ao projeto.
-> Indique as principais pessoas (clientes, fornecedores, etc), indicando possíveis expectativas, nível de influência e possível importância para o sucesso do projeto.
-
-> Você pode utilizar como referência o seguinte documento:
-> [Registro de Partes Interessadas](artefatos/registro-partes-interessadas.xlsx)
-
-## Identificação das Partes Interessadas
 
 ## Identificação das Partes Interessadas
 
@@ -138,43 +118,21 @@
 
 ## Estimativa de Custo
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> A avaliação da viabilidade econômica busca determinar a sustentabilidade financeira e o retorno sobre o investimento do empreendimento. 
-> Este processo envolve a análise dos custos associados ao projeto, incluindo investimentos iniciais, despesas operacionais e potenciais custos de manutenção. 
-> Simultaneamente, são examinados os benefícios esperados, como receitas, economias de custos e ganhos tangíveis e intangíveis. 
-> A elaboração de projeções financeiras realistas e a aplicação de métricas como o Valor Presente Líquido (VPL) e a Taxa Interna de Retorno (TIR) contribuem para uma avaliação abrangente da viabilidade econômica do projeto. 
-> Este processo permite que os gestores de projeto e as partes interessadas tomem decisões informadas sobre a continuidade, ajustes ou mesmo a interrupção do projeto, garantindo uma alocação eficiente de recursos e maximizando os benefícios econômicos esperados.
-
-......  ATUALIZE OS ITENS DE CUSTO DO SISTEMA. ADICIONE NOVOS OU SUBDIVIDA ITENS, CASO NECESSÁRIO ......
-
 | Item de Custo           | Descrição | Qtd. horas | Valor / hora | Valor total |
 |-------------------------|-----------|------------|--------------|-------------|
-| Recursos Humanos        |           |            |              |             |
-| Hardware                |           |            |              |             |
-| Serviços de Rede        |           |            |              |             |
-| Hospedagem e Nuvem      |           |            |              |             |
-| Software de terceiros   |           |            |              |             |
-| Serviços e treinamento  |           |            |              |             |
-| **Total Geral**         |           |            |              |             |
+| Recursos Humanos        |Definição/Contratação dos Stakeholders e Investidores.         |10h            |R$120/h              |R$1.200             |
+| Hardware (Não terá)                |-           |-            |-              |-             |
+| Hospedagem e Nuvem      |Taxa para hospedar           |            |              |R$60             |
+| Software de terceiros   |-           |-            |-              |-             |
+| Serviços e treinamento  |Custo dos desenvolvedores           |50h            |R$200/h              |R$10.000 x 4             |
+| **Total Geral**         |           |60h            |R$320/h              |R$41.260             |
 
 
 ## Estimativa de Prazo
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> A estimativa de prazo orienta tanto o cliente quanto a equipe de desenvolvimento do projeto em termos do tempo necessário para a conclusão do projeto como um todo. 
-> Esta estimativa possibilita a criação de um cronograma realista e viável, permitindo o planejamento adequado das fases do projeto, alocação de recursos de maneira eficiente e antecipação de eventuais desafios.
-> Uma estimativa precisa orienta a execução do projeto, contribui para a gestão de expectativas e para o estabelecimento de metas alcançáveis.
-
-> Indique:
-> * Prazo previsto (em horas) 
-> * Data de início
-> * Data de término
-
-* Prazo previsto (em horas): XX horas
-* Data de início: __ / __ / _____
-* Data de término: __ / __ / _____
+* Prazo previsto (em horas): 60 horas
+* Data de início: 28 / 08 / 2025
+* Data de término: 04 / 12 / 2025
 
 ## Escopo Preliminar e Premissas
 
@@ -256,14 +214,12 @@ A tabela a seguir apresenta as atividades que não serão executadas no projeto
 
 ### Condições para início do Projeto
 
-......  ATUALIZE AS CONDIÇÕES PARA INÍCIO DOS PROJETOS (MÍNIMO 3) ......
-
-A tabela a seguir, apresente as condições para que o projeto seja iniciado.
-
 |ID    | Descrição de Condições para Início do Projeto    | 
 |------|--------------------------------------------------|
-|CI-001| Assinatura de contrato de prestação de serviços. |
-|CI-002| Apresentação de garantias definidas no contrato. |
+|CI-001| Reunião inicial para o kickstart e definição do Backlog do produto. |
+|CI-002| Nivelamento da equipe acerca das linguagens que iremos utilizar no projeto. |
+|CI-003| “Financiamento” estrutural arrecadado. |
+|CI-004| Todos estarem no repositório do GitHub. |
 
 ## Marcos Agendados e Entregas
 
@@ -315,7 +271,7 @@ O desenvolvimento do **HiperCompras** será realizado utilizando uma abordagem *
 - **Ariel Inácio** — *UI/UX Designer*: responsável pelo design, prototipagem e experiência do usuário.
 - **Júlia de Mello** — *Gerente de Projeto*: responsável pelo planejamento, acompanhamento e organização das etapas do desenvolvimento.
 - **Pedro Vitor Caiafa** — *Backend Developer*: responsável pela lógica do sistema, integrações
-- 
+  
 ## Ferramentas
 
 | Ambiente              | Plataforma         | Link de Acesso             | Justificativa |
