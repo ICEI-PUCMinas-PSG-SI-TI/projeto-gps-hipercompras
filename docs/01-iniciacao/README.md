@@ -1,12 +1,5 @@
 # Iniciação
 
-> A fase de iniciação, em gerência de projetos, é o estágio que estabelece as bases para o sucesso do empreendimento. 
-> Durante essa etapa, os objetivos definidos, identificando-se suas metas, escopo, partes interessadas (*stakeholders*) e restrições. 
-> É o momento em que a viabilidade do projeto é avaliada, analisando-se recursos necessários, riscos potenciais e benefícios esperados.
-> Nesta etapa é elaborado o Termo de Abertura do Projeto (TAP).
-> Essa fase serve como um alicerce estratégico, proporcionando uma compreensão abrangente do que o projeto busca alcançar e delineando as diretrizes que orientarão as etapas subsequentes. 
-> O sucesso na fase de iniciação contribui significativamente para a eficácia do gerenciamento de projetos como um todo.
-
 # Estrutura do Documento
 
 - [Fase de Iniciação](#iniciação)
@@ -34,20 +27,9 @@
 
 # Introdução
 
-```diff
-+ Tarefa 01:
-+ Tema do projeto e lista de Stakeholders
-```
-
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Problem corresponde a uma lacuna a ser preenchida, uma necessidade a ser atendida, ou uma dificuldade a ser superada.
-> A definição precisa do problema ajuda a orientar as atividades do projeto, direcionando os esforços em sua solução.
-> Seu entendimento facilita a comunicação eficaz entre os membros da equipe e as partes interessadas, estabelecendo uma base comum para a colaboração.
-> Nesta seção, deve ser descrito apenas o problema e seu contexto.
-> Soluções para o problema devem ser descritas na seção correspondente.
+Atualmente, muitos consumidores enfrentam a falta de tempo para realizar suas compras em supermercados. Esse processo pode ser demorado devido à necessidade de deslocamento, busca por produtos, filas de pagamento e até mesmo a procura por vagas de estacionamento. Além disso, os programas de fidelidade existentes nem sempre oferecem benefícios diretos ou práticos para o cliente no momento da compra.
 
 ## Objetivos
 
@@ -92,18 +74,7 @@ prevista pelo cliente.
 |PUC Minas                 |                        |Baixa               |Alta                     |Neutro             |Exige relatórios formais e alinhamento constante               |
 |Pedro Felipe (Professor)                 |                        |Alta               |Alta                     |Apoiador             |Responsável pela orientação do projeto|
 
-
-```diff
-+ Tarefa 01
-+ Fim da seção a ser atualizada.
-```
-
-
 -----
-```diff
-+ Tarefa 02
-+ Termo de Abertura do Projeto
-```
 
 # Termo de Abertura do Projeto
 
@@ -136,35 +107,7 @@ prevista pelo cliente.
 
 ## Escopo Preliminar e Premissas
 
-> Os requisitos preliminares fornecem uma visão inicial do escopo, funcionalidades-chave e as expectativas a serem atendidas. 
-> 
-> ***A quantidade mínima de requisitos a serem preenchidos nas seções abaixo não incluem os exemplos previamente fornecidos.***
-
 ## Declaração de Escopo
-
-> Você pode utilizar como referência o seguinte documento:
-- [Declaração de Escopo](artefatos/declaracao-escopo.docx)
-
-> Enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
 
 ### Requisitos Funcionais  
 
@@ -235,16 +178,7 @@ A tabela a seguir apresenta as restrições do projeto.
 |M-2  | Aplicativo responsivo integrado a API.               |
 |M-3  | Aplicativo funcionando 100% e testado.                                                                 |
 
-```diff
-+ Tarefa 02
-+ Fim da seção a ser atualizada.
-```
-
 -----
-```diff
-+ Tarefa 03:
-+ Metodologia do Projeto
-```
 
 # Metodologia
 
@@ -280,16 +214,8 @@ O desenvolvimento do **HiperCompras** será realizado utilizando uma abordagem *
 | Protótipo Interativo  | MavelApp ou Figma  | https://figma.com/XXXXXXX  |               |
 | Documentos Textuais   | Word e Google Docx | N/A                        |               |
 | Planilhas e Gráficos  | Google Sheets e Excel   | N/A|               |
-| EAP / WBS             | | | |
-| Cronograma do Projeto | | | |
-| Matriz RACI           | | | |
 | **React.js**         | Desenvolvimento do **frontend**                |  | Escolhido por sua eficiência na criação de interfaces dinâmicas, responsivas e modulares. |
 | **Node.js**          | Desenvolvimento do **backend**                 |  | Permite construir APIs rápidas e escaláveis, facilitando a comunicação entre frontend e banco de dados. |
 | **Visual Studio Code** | Ambiente de desenvolvimento integrado (IDE)   |  | Editor leve, rápido e com grande suporte para **React** e **Node.js**. |
-
-```diff
-+ Tarefa 03:
-+ Fim da seção a ser atualizada.
-```
 
 ----
