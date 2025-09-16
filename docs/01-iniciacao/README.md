@@ -166,75 +166,74 @@ prevista pelo cliente.
 > - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 
-### Requisitos Funcionais
+### Requisitos Funcionais  
 
-......  ATUALIZE OS REQUISITOS FUNCIONAIS DO SISTEMA (MÍNIMO 10) ......
+A tabela a seguir apresenta os requisitos funcionais do projeto.  
 
-A tabela a seguir apresenta os requisitos funcionais do projeto. 
+|ID     | Descrição do Requisito                                                                 | Prioridade |
+|-------|-----------------------------------------------------------------------------------------|------------|
+|RF-001 | Permitir integração com uma API para exibição dos produtos disponíveis no aplicativo    | ALTA       |
+|RF-002 | Desenvolver as interfaces do sistema utilizando React                                  | ALTA       |
+|RF-003 | Implementar o backend do sistema em Node.js                                            | ALTA       |
+|RF-004 | Disponibilizar um design de interface (UI/UX) chamativo e intuitivo para consumidores  | MÉDIA      |
+|RF-005 | Utilizar o Kanban do GitHub para organizar as etapas do projeto                        | MÉDIA      |
+|RF-006 | Permitir que o usuário realize compras de produtos pelo aplicativo                     | ALTA       |
+|RF-007 | Implementar um sistema de acúmulo de pontos vinculado ao histórico do usuário          | ALTA       |
+|RF-008 | Integrar o sistema de compras e pontos a um banco de dados seguro                      | ALTA       |
+|RF-009 | Disponibilizar funcionalidade de pré-pagamento do estacionamento                       | MÉDIA      |
+|RF-010 | Oferecer a possibilidade de reserva de vagas no estacionamento                         | MÉDIA      |
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|-------|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+### Requisitos Não Funcionais  
 
-### Requisitos Não Funcionais
+A tabela a seguir apresenta os requisitos não funcionais do projeto.  
 
-......  ATUALIZE OS REQUISITOS NÃO FUNCIONAIS DO SISTEMA (MÍNIMO 5) ......
+|ID     | Descrição do Requisito                                                                 | Prioridade |
+|-------|-----------------------------------------------------------------------------------------|------------|
+|RNF-001| O sistema deve ser responsivo para rodar em dispositivos móveis                        | MÉDIA      | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s                                  | BAIXA      |  
+|RNF-003| Backend e frontend não estarão integrados                                              | MÉDIA      |
+|RNF-004| As compras não contemplam entrega a domicílio, apenas retirada no supermercado         | ALTA       |
+|RNF-005| Pagamento será realizado somente na retirada, não havendo compra via aplicativo        | ALTA       |
+|RNF-006| Não haverá menu de edição de usuário; dados cadastrados não poderão ser alterados      | MÉDIA      |
 
-A tabela a seguir apresenta os requisitos não funcionais do projeto. 
+### Restrições  
 
-|ID     | Descrição do Requisito                                            |Prioridade |
-|-------|-------------------------------------------------------------------|-----------|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA     | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s             | BAIXA     | 
+A tabela a seguir apresenta as restrições do projeto.  
 
+|ID     | Descrição da Restrição                                                                 | Prioridade |
+|-------|-----------------------------------------------------------------------------------------|------------|
+|RE-001 | O investimento previsto limita a escolha de tecnologias e serviços externos            | ALTA       | 
+|RE-002 | O tempo de entrega deve ser cumprido conforme o cronograma definido                    | ALTA       | 
+|RE-003 | A disponibilidade de cada integrante impactará diretamente na execução das tarefas     | MÉDIA      | 
+|RE-004 | O conhecimento prévio das linguagens a serem utilizadas pode restringir as soluções     | MÉDIA      | 
+|RE-005 | O sistema de pagamento/logística real de supermercado não poderá ser integrado          | ALTA       | 
 
-### Restrições
+### Contra-Escopo  
 
-......  ATUALIZE AS RESTRIÇÕES DO SISTEMA (MÍNIMO 5) ......
-
-A tabela a seguir apresenta as restrições do projeto. 
-
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|-------|
-|RE-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RE-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
-
-### Contra-Escopo
-
-......  ATUALIZE O CONTRA-ESCOPO DO SISTEMA (MÍNIMO 5) ......
-
-A tabela a seguir apresenta as atividades que não serão executadas no projeto
-
-|ID    | Descrição do Contra-Escopo          | 
-|------|-------------------------------------|
-|CE-001| Treinamento de modelo de LLM        |
-|CE-002| Pesquisa de viabilidade do mercado. |
+|ID     | Descrição do Contra-Escopo                                                           | 
+|-------|---------------------------------------------------------------------------------------|
+|CE-001 | Investimento previsto não contempla despesas extras fora do planejamento inicial      |
+|CE-002 | O tempo de entrega do projeto não poderá ser estendido além do cronograma definido    |
+|CE-003 | A disponibilidade de cada integrante limita a execução de atividades adicionais       |
+|CE-004 | O conhecimento das linguagens utilizadas restringe a adoção de novas tecnologias      |
+|CE-005 | Integração com sistema real de pagamento/logística de supermercado não será realizada |
 
 ### Condições para início do Projeto
 
 |ID    | Descrição de Condições para Início do Projeto    | 
 |------|--------------------------------------------------|
-|CI-001| Reunião inicial para o kickstart e definição do Backlog do produto. |
+|CI-001| Reunião inicial para o kickstart e definição do Backlog do produto |
 |CI-002| Nivelamento da equipe acerca das linguagens que iremos utilizar no projeto. |
 |CI-003| “Financiamento” estrutural arrecadado. |
 |CI-004| Todos estarem no repositório do GitHub. |
 
 ## Marcos Agendados e Entregas
 
-......  ATUALIZE OS MARCOS AGENDADOS DO PROJETO E AS DATAS PARA ENTREGAS DAS TAREFAS ......
-
-A tabela a seguir, identifique os marcos do projeto e os entregáveis previstos (requisitos).
-
 |ID   | Marco do Projeto                                                  | 
 |-----|-------------------------------------------------------------------|
-|M-1  | Liberação do sistema para cadastro de informações e configuração. |
-|M-2  | Permissão para uso do sistema, por usuários focais.               |
-|M-3  |                                                                   |
-|M-4  |                                                                   |
-|M-5  |                                                                   |
-|M-6  |                                                                   |
+|M-1  | Interfaces adaptadas ao projeto de UI/UX definido. |
+|M-2  | Aplicativo responsivo integrado a API.               |
+|M-3  | Aplicativo funcionando 100% e testado.                                                                 |
 
 ```diff
 + Tarefa 02
