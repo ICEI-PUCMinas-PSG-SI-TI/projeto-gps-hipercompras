@@ -1,12 +1,5 @@
 # Iniciação
 
-> A fase de iniciação, em gerência de projetos, é o estágio que estabelece as bases para o sucesso do empreendimento. 
-> Durante essa etapa, os objetivos definidos, identificando-se suas metas, escopo, partes interessadas (*stakeholders*) e restrições. 
-> É o momento em que a viabilidade do projeto é avaliada, analisando-se recursos necessários, riscos potenciais e benefícios esperados.
-> Nesta etapa é elaborado o Termo de Abertura do Projeto (TAP).
-> Essa fase serve como um alicerce estratégico, proporcionando uma compreensão abrangente do que o projeto busca alcançar e delineando as diretrizes que orientarão as etapas subsequentes. 
-> O sucesso na fase de iniciação contribui significativamente para a eficácia do gerenciamento de projetos como um todo.
-
 # Estrutura do Documento
 
 - [Fase de Iniciação](#iniciação)
@@ -34,20 +27,9 @@
 
 # Introdução
 
-```diff
-+ Tarefa 01:
-+ Tema do projeto e lista de Stakeholders
-```
-
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Problem corresponde a uma lacuna a ser preenchida, uma necessidade a ser atendida, ou uma dificuldade a ser superada.
-> A definição precisa do problema ajuda a orientar as atividades do projeto, direcionando os esforços em sua solução.
-> Seu entendimento facilita a comunicação eficaz entre os membros da equipe e as partes interessadas, estabelecendo uma base comum para a colaboração.
-> Nesta seção, deve ser descrito apenas o problema e seu contexto.
-> Soluções para o problema devem ser descritas na seção correspondente.
+Atualmente, muitos consumidores enfrentam a falta de tempo para realizar suas compras em supermercados. Esse processo pode ser demorado devido à necessidade de deslocamento, busca por produtos, filas de pagamento e até mesmo a procura por vagas de estacionamento. Além disso, os programas de fidelidade existentes nem sempre oferecem benefícios diretos ou práticos para o cliente no momento da compra.
 
 ## Objetivos
 
@@ -92,18 +74,7 @@ prevista pelo cliente.
 |PUC Minas                 |                        |Baixa               |Alta                     |Neutro             |Exige relatórios formais e alinhamento constante               |
 |Pedro Felipe (Professor)                 |                        |Alta               |Alta                     |Apoiador             |Responsável pela orientação do projeto|
 
-
-```diff
-+ Tarefa 01
-+ Fim da seção a ser atualizada.
-```
-
-
 -----
-```diff
-+ Tarefa 02
-+ Termo de Abertura do Projeto
-```
 
 # Termo de Abertura do Projeto
 
@@ -136,116 +107,78 @@ prevista pelo cliente.
 
 ## Escopo Preliminar e Premissas
 
-> Os requisitos preliminares fornecem uma visão inicial do escopo, funcionalidades-chave e as expectativas a serem atendidas. 
-> 
-> ***A quantidade mínima de requisitos a serem preenchidos nas seções abaixo não incluem os exemplos previamente fornecidos.***
-
 ## Declaração de Escopo
 
-> Você pode utilizar como referência o seguinte documento:
-- [Declaração de Escopo](artefatos/declaracao-escopo.docx)
+### Requisitos Funcionais  
 
-> Enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+A tabela a seguir apresenta os requisitos funcionais do projeto.  
 
+|ID     | Descrição do Requisito                                                                 | Prioridade |
+|-------|-----------------------------------------------------------------------------------------|------------|
+|RF-001 | Permitir integração com uma API para exibição dos produtos disponíveis no aplicativo    | ALTA       |
+|RF-002 | Desenvolver as interfaces do sistema utilizando React                                  | ALTA       |
+|RF-003 | Implementar o backend do sistema em Node.js                                            | ALTA       |
+|RF-004 | Disponibilizar um design de interface (UI/UX) chamativo e intuitivo para consumidores  | MÉDIA      |
+|RF-005 | Utilizar o Kanban do GitHub para organizar as etapas do projeto                        | MÉDIA      |
+|RF-006 | Permitir que o usuário realize compras de produtos pelo aplicativo                     | ALTA       |
+|RF-007 | Implementar um sistema de acúmulo de pontos vinculado ao histórico do usuário          | ALTA       |
+|RF-008 | Integrar o sistema de compras e pontos a um banco de dados seguro                      | ALTA       |
+|RF-009 | Disponibilizar funcionalidade de pré-pagamento do estacionamento                       | MÉDIA      |
+|RF-010 | Oferecer a possibilidade de reserva de vagas no estacionamento                         | MÉDIA      |
 
-### Requisitos Funcionais
+### Requisitos Não Funcionais  
 
-......  ATUALIZE OS REQUISITOS FUNCIONAIS DO SISTEMA (MÍNIMO 10) ......
+A tabela a seguir apresenta os requisitos não funcionais do projeto.  
 
-A tabela a seguir apresenta os requisitos funcionais do projeto. 
+|ID     | Descrição do Requisito                                                                 | Prioridade |
+|-------|-----------------------------------------------------------------------------------------|------------|
+|RNF-001| O sistema deve ser responsivo para rodar em dispositivos móveis                        | MÉDIA      | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s                                  | BAIXA      |  
+|RNF-003| Backend e frontend não estarão integrados                                              | MÉDIA      |
+|RNF-004| As compras não contemplam entrega a domicílio, apenas retirada no supermercado         | ALTA       |
+|RNF-005| Pagamento será realizado somente na retirada, não havendo compra via aplicativo        | ALTA       |
+|RNF-006| Não haverá menu de edição de usuário; dados cadastrados não poderão ser alterados      | MÉDIA      |
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|-------|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+### Restrições  
 
-### Requisitos Não Funcionais
+A tabela a seguir apresenta as restrições do projeto.  
 
-......  ATUALIZE OS REQUISITOS NÃO FUNCIONAIS DO SISTEMA (MÍNIMO 5) ......
+|ID     | Descrição da Restrição                                                                 | Prioridade |
+|-------|-----------------------------------------------------------------------------------------|------------|
+|RE-001 | O investimento previsto limita a escolha de tecnologias e serviços externos            | ALTA       | 
+|RE-002 | O tempo de entrega deve ser cumprido conforme o cronograma definido                    | ALTA       | 
+|RE-003 | A disponibilidade de cada integrante impactará diretamente na execução das tarefas     | MÉDIA      | 
+|RE-004 | O conhecimento prévio das linguagens a serem utilizadas pode restringir as soluções     | MÉDIA      | 
+|RE-005 | O sistema de pagamento/logística real de supermercado não poderá ser integrado          | ALTA       | 
 
-A tabela a seguir apresenta os requisitos não funcionais do projeto. 
+### Contra-Escopo  
 
-|ID     | Descrição do Requisito                                            |Prioridade |
-|-------|-------------------------------------------------------------------|-----------|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA     | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s             | BAIXA     | 
-
-
-### Restrições
-
-......  ATUALIZE AS RESTRIÇÕES DO SISTEMA (MÍNIMO 5) ......
-
-A tabela a seguir apresenta as restrições do projeto. 
-
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|-------|
-|RE-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RE-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
-
-### Contra-Escopo
-
-......  ATUALIZE O CONTRA-ESCOPO DO SISTEMA (MÍNIMO 5) ......
-
-A tabela a seguir apresenta as atividades que não serão executadas no projeto
-
-|ID    | Descrição do Contra-Escopo          | 
-|------|-------------------------------------|
-|CE-001| Treinamento de modelo de LLM        |
-|CE-002| Pesquisa de viabilidade do mercado. |
+|ID     | Descrição do Contra-Escopo                                                           | 
+|-------|---------------------------------------------------------------------------------------|
+|CE-001 | Investimento previsto não contempla despesas extras fora do planejamento inicial      |
+|CE-002 | O tempo de entrega do projeto não poderá ser estendido além do cronograma definido    |
+|CE-003 | A disponibilidade de cada integrante limita a execução de atividades adicionais       |
+|CE-004 | O conhecimento das linguagens utilizadas restringe a adoção de novas tecnologias      |
+|CE-005 | Integração com sistema real de pagamento/logística de supermercado não será realizada |
 
 ### Condições para início do Projeto
 
 |ID    | Descrição de Condições para Início do Projeto    | 
 |------|--------------------------------------------------|
-|CI-001| Reunião inicial para o kickstart e definição do Backlog do produto. |
+|CI-001| Reunião inicial para o kickstart e definição do Backlog do produto |
 |CI-002| Nivelamento da equipe acerca das linguagens que iremos utilizar no projeto. |
 |CI-003| “Financiamento” estrutural arrecadado. |
 |CI-004| Todos estarem no repositório do GitHub. |
 
 ## Marcos Agendados e Entregas
 
-......  ATUALIZE OS MARCOS AGENDADOS DO PROJETO E AS DATAS PARA ENTREGAS DAS TAREFAS ......
-
-A tabela a seguir, identifique os marcos do projeto e os entregáveis previstos (requisitos).
-
 |ID   | Marco do Projeto                                                  | 
 |-----|-------------------------------------------------------------------|
-|M-1  | Liberação do sistema para cadastro de informações e configuração. |
-|M-2  | Permissão para uso do sistema, por usuários focais.               |
-|M-3  |                                                                   |
-|M-4  |                                                                   |
-|M-5  |                                                                   |
-|M-6  |                                                                   |
-
-```diff
-+ Tarefa 02
-+ Fim da seção a ser atualizada.
-```
+|M-1  | Interfaces adaptadas ao projeto de UI/UX definido. |
+|M-2  | Aplicativo responsivo integrado a API.               |
+|M-3  | Aplicativo funcionando 100% e testado.                                                                 |
 
 -----
-```diff
-+ Tarefa 03:
-+ Metodologia do Projeto
-```
 
 # Metodologia
 
@@ -281,16 +214,8 @@ O desenvolvimento do **HiperCompras** será realizado utilizando uma abordagem *
 | Protótipo Interativo  | MavelApp ou Figma  | https://figma.com/XXXXXXX  |               |
 | Documentos Textuais   | Word e Google Docx | N/A                        |               |
 | Planilhas e Gráficos  | Google Sheets e Excel   | N/A|               |
-| EAP / WBS             | | | |
-| Cronograma do Projeto | | | |
-| Matriz RACI           | | | |
 | **React.js**         | Desenvolvimento do **frontend**                |  | Escolhido por sua eficiência na criação de interfaces dinâmicas, responsivas e modulares. |
 | **Node.js**          | Desenvolvimento do **backend**                 |  | Permite construir APIs rápidas e escaláveis, facilitando a comunicação entre frontend e banco de dados. |
 | **Visual Studio Code** | Ambiente de desenvolvimento integrado (IDE)   |  | Editor leve, rápido e com grande suporte para **React** e **Node.js**. |
-
-```diff
-+ Tarefa 03:
-+ Fim da seção a ser atualizada.
-```
 
 ----
