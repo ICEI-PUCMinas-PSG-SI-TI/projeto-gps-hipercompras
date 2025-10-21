@@ -1,10 +1,10 @@
-
 const express = require("express");
 const app = express();
 const port = 3000;
 const db = require("./database");
 app.use(express.json());
-
+const cors = require("cors");
+app.use(cors()); // permite que o frontend acesse a API
 
 // Rota inicial
 app.get("/", (req, res) => {
@@ -62,6 +62,30 @@ app.get("/usuarios", (req, res) => {
       return res.status(500).json({ error: "Erro ao buscar usuários." });
     }
     res.json({ usuarios: rows });
+  });
+});
+
+// Rota para listar todos os produtos
+app.get("/produtos", (req, res) => {
+  db.all("SELECT * FROM produtos", [], (err, rows) => {
+    if (err) {
+      return res.status(500).json({ error: "Erro ao buscar produtos." });
+    }
+    res.json(rows);
+  });
+});
+
+// Rota para produto específico
+app.get("/produtos/:id", (req, res) => {
+  const id = req.params.id;
+  db.get("SELECT * FROM produtos WHERE id = ?", [id], (err, row) => {
+    if (err) {
+      return res.status(500).json({ error: "Erro ao buscar produto." });
+    }
+    if (!row) {
+      return res.status(404).json({ error: "Produto não encontrado." });
+    }
+    res.json(row);
   });
 });
 
