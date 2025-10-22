@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   
       container.innerHTML = "";
   
-      data.produtos.forEach(produto => {
+      data.forEach(produto => {
         const card = document.createElement("div");
         card.classList.add("produto");
         card.innerHTML = `
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         container.appendChild(card);
       });
     } catch (error) {
-      container.innerHTML = "<p>Erro ao carregar produtos 😞</p>";
+      container.innerHTML = "<p>Erro ao carregar produtos</p>";
       console.error(error);
     }
   });

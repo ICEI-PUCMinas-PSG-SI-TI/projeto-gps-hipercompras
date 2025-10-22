@@ -85,7 +85,7 @@ app.get("/produtos/:id", (req, res) => {
     if (!row) {
       return res.status(404).json({ error: "Produto não encontrado." });
     }
-    res.json(row);
+    res.json({ produto: row });
   });
 });
 
