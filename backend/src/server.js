@@ -1,10 +1,15 @@
+// (A rota /finalizar-compra foi movida para depois da inicialização do app)
 const express = require("express");
 const app = express();
 const port = 3000;
 const db = require("./database");
 app.use(express.json());
 const cors = require("cors");
-app.use(cors()); // permite que o frontend acesse a API
+app.use(cors({
+  origin: "*",
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"]
+}));
 
 // Rota inicial
 app.get("/", (req, res) => {
@@ -86,6 +91,51 @@ app.get("/produtos/:id", (req, res) => {
       return res.status(404).json({ error: "Produto não encontrado." });
     }
     res.json({ produto: row });
+  });
+});
+
+// Rota para finalizar compra: atualiza estoque e pontos do usuário
+app.post("/finalizar-compra", (req, res) => {
+  const { usuarioId, carrinho, pontosUsados } = req.body;
+  if (!usuarioId || !Array.isArray(carrinho) || carrinho.length === 0) {
+    return res.status(400).json({ error: "Dados inválidos para finalizar compra." });
+  }
+
+  db.serialize(() => {
+    let erroEstoque = null;
+    let total = 0;
+    let produtosProcessados = 0;
+    for (const item of carrinho) {
+      db.get("SELECT estoque, preco FROM produtos WHERE id = ?", [item.id], (err, row) => {
+        produtosProcessados++;
+        if (erroEstoque || err || !row || row.estoque < item.quantidade) {
+          erroEstoque = err || (!row ? "Produto não encontrado" : "Estoque insuficiente");
+        } else {
+          total += row.preco * item.quantidade;
+          db.run("UPDATE produtos SET estoque = estoque - ? WHERE id = ?", [item.quantidade, item.id]);
+        }
+        // Só processa pontos quando todos os produtos foram verificados
+        if (produtosProcessados === carrinho.length) {
+          if (erroEstoque) {
+            return res.status(400).json({ error: erroEstoque });
+          }
+          db.get("SELECT pontos FROM usuarios WHERE id = ?", [usuarioId], (err, userRow) => {
+            if (err || !userRow) {
+              return res.status(500).json({ error: "Usuário não encontrado." });
+            }
+            const pontosGanhos = Number((total / 10).toFixed(2));
+            let pontosFinais = (userRow.pontos || 0) - (pontosUsados || 0) + pontosGanhos;
+            if (pontosFinais < 0) pontosFinais = 0;
+            db.run("UPDATE usuarios SET pontos = ? WHERE id = ?", [pontosFinais, usuarioId], (err2) => {
+              if (err2) {
+                return res.status(500).json({ error: "Erro ao atualizar pontos." });
+              }
+              return res.json({ ok: true, pontos: pontosFinais, pontosGanhos });
+            });
+          });
+        }
+      });
+    }
   });
 });
 

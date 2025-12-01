@@ -14,15 +14,15 @@ document.addEventListener("DOMContentLoaded", async () => {
         loginBtn.style.display = "none";
         loginBtn.style.visibility = "hidden";
       }
-      userInfo.style.display = "inline-block";
-      userEmail.textContent = usuario.nome;
-      userPontos.textContent = ` | Pontos: ${usuario.pontos ?? 0}`;
+      if (userInfo) userInfo.style.display = "inline-block";
+      if (userEmail) userEmail.textContent = usuario.nome;
+      if (userPontos) userPontos.textContent = ` | Pontos: ${usuario.pontos ?? 0}`;
     } else {
       if (loginBtn) {
         loginBtn.style.display = "inline-block";
         loginBtn.style.visibility = "visible";
       }
-      userInfo.style.display = "none";
+      if (userInfo) userInfo.style.display = "none";
     }
   }
 

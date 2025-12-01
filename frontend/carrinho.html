@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Produto - HiperCompras</title>
+  <title>Carrinho - HiperCompras</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,12 +19,15 @@
       </span>
     </div>
   </header>
-
-  <main id="produto-detalhe">
-    <p>Carregando produto...</p>
+  <main id="carrinho-container">
+    <h2>Seu Carrinho</h2>
+    <div id="carrinho-itens"></div>
+    <div id="carrinho-total"></div>
+    <div id="carrinho-pontos"></div>
+    <div id="usar-pontos-area" style="margin: 18px 0 24px 0;"></div>
+    <button id="finalizar-compra">Finalizar Compra</button>
   </main>
-
   <script src="script.js"></script>
-  <script src="produto.js"></script>
+  <script src="carrinho.js"></script>
 </body>
 </html>

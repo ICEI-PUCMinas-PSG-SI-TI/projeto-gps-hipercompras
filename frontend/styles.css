@@ -1,3 +1,87 @@
+/* Carrinho */
+.carrinho-item {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+  margin-bottom: 18px;
+  padding: 12px 18px;
+  font-size: 1.1em;
+}
+
+.carrinho-item img {
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.carrinho-item button.qtd-mais,
+.carrinho-item button.qtd-menos {
+  background: #3aafa9;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 1.2em;
+  margin: 0 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.carrinho-item button.qtd-mais:hover,
+.carrinho-item button.qtd-menos:hover {
+  background: #2b7a78;
+}
+
+.carrinho-item button.remover-item {
+  background: #d90429;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  margin-left: 12px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.carrinho-item button.remover-item:hover {
+  background: #a8001c;
+}
+
+#carrinho-container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 30px 30px 20px 30px;
+}
+
+#carrinho-container h2 {
+  color: #2b7a78;
+  margin-bottom: 24px;
+}
+
+#carrinho-total {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #205e5a;
+  margin: 18px 0 24px 0;
+}
+
+#finalizar-compra {
+  background: #3aafa9;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 28px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#finalizar-compra:hover {
+  background: #2b7a78;
+}
 /* Garante que o botão de login suma corretamente */
 #login-btn[style*="display: none"] {
   display: none !important;
