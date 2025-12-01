@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             <h2>${produto.nome}</h2>
             <p class="preco">R$ ${produto.preco.toFixed(2)}</p>
             <p class="estoque">Disponíveis: ${produto.estoque}</p>
-            <button id="btn-comprar">Adicionar ao carrinho 🛍️</button>
+            <button id="btn-comprar">Adicionar ao carrinho</button>
           </div>
         </div>
       `;
