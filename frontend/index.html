@@ -9,7 +9,15 @@
 <body>
   <header>
     <h1>HiperCompras</h1>
-    <button id="login-btn">Login</button>
+    <div id="user-area">
+      <span id="login-btn" style="cursor:pointer; color:#fff; background:#2b7a78; padding:8px 16px; border-radius:5px;" onclick="window.location.href='login.html'">Login</span>
+      <span id="user-info" style="display:none">
+        <span id="user-email"></span>
+        <span id="user-pontos"></span>
+        <button id="carrinho-btn" title="Carrinho" style="font-size:22px; margin-left:10px;">🛒</button>
+        <button id="logout-btn" title="Sair" style="margin-left:10px; font-size:16px;">Sair</button>
+      </span>
+    </div>
   </header>
 
   <main id="produtos-container">
