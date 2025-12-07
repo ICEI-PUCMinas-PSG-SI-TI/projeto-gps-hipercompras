@@ -74,9 +74,19 @@
 # Matriz de Responsabilidades
 
 
-> Crie uma nova imagem da Estrutura Analítica do Projeto. Não se esqueça de adicionar o documento editável no repositório.
+## Matriz RACI do Projeto
 
-![Matriz RACI](images/raci.png)
+![Matriz RACI](images/Matriz%20RACI.pdf.png)
+
+### Arquivos relacionados
+- **Imagem da Matriz RACI:**  
+  `images/Matriz RACI.pdf.png`
+
+- **PDF completo da Matriz RACI:**  
+  [Matriz RACI.pdf](docs/Matriz%20RACI.pdf)
+
+- **Arquivo CSV (editável) da Matriz RACI:**  
+  [matriz_raci.csv](docs/matriz_raci.csv)
 
 
 ### Documento Editável
