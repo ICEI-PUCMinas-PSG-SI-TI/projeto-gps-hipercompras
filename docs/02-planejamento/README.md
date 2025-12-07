@@ -83,10 +83,11 @@
   `images/Matriz RACI.pdf.png`
 
 - **PDF completo da Matriz RACI:**  
-  [Matriz RACI.pdf](docs/Matriz%20RACI.pdf)
+  [Matriz RACI.pdf](docs/02-planejamento/Matriz%20RACI.pdf)
 
 - **Arquivo CSV (editável) da Matriz RACI:**  
-  [matriz_raci.csv](docs/matriz_raci.csv)
+ [matriz_raci.csv](docs/02-planejamento/matriz_raci.csv)
+
 
 
 ### Documento Editável
