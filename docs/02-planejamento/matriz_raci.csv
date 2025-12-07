@@ -1,0 +1,15 @@
+Atividade,Gerente,Equipe Gerenciada,Patrocinador
+Iniciar o projeto,R,I,A
+Definir o escopo,R,C,A
+Elaborar a WBS,R,A,I
+Elaborar o cronograma,R,C,A
+Planejar os riscos,R,A,I
+Planejar a qualidade,R,A,I
+Planejar o projeto,R,A,I
+Monitorar o projeto,R,I,I
+Encerrar o projeto,A,R,I
+Realizar garantia da qualidade,A,R,I
+Realizar controle da qualidade,A,R,I
+Implementar Back-end,A,R,I
+Implementar Front-end,A,R,I
+Realizar testes,A,R,I
