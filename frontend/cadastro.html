@@ -8,21 +8,67 @@
 </head>
 <body>
   <header>
-    <h1><a href="index.html">HiperCompras</a></h1>
+
+    <div class="logo">
+      <img src="public/images/logo.png" alt="HiperCompras" onclick="window.location.href='index.html'">
+    </div>
+
   </header>
-  <main class="cadastro-container">
-    <form id="cadastro-form">
-      <h2>Cadastro</h2>
-      <label for="nome">Nome:</label>
-      <input type="text" id="nome" name="nome" required>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      <label for="senha">Senha:</label>
-      <input type="password" id="senha" name="senha" required>
-      <button type="submit">Cadastrar</button>
-      <p id="cadastro-erro" class="erro"></p>
-    </form>
-  </main>
+
+  <div class="split_screen">
+
+    <div class="left">
+      <div class="copy">
+        <h1>Sua compra do mês em um click!</h1>
+        <p>Sempre oferecendo as melhores oferetas.</p>
+      </div>
+    </div>
+    <div class="right">
+      <form id="cadastro-form">
+        <section class="copy">
+          <h2>Cadastro</h2>
+          <div class="sign-container"> 
+            
+            <p>
+              Já tem uma conta? 
+              <a href="login.html"> 
+                <strong> 
+                  Faça login
+                </strong> 
+              </a>
+            </p>
+
+          </div>
+        </section>
+
+        <div class="input-container">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" required />
+        </div>
+
+        <div class="input-container">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="input-container password">
+          <label for="senha">Senha</label>
+          <input type="password" id="senha" name="senha" required />
+        </div>
+
+        <div class="input-container password">
+          <label for="ConfirmarSenha">Confirmar Senha</label>
+          <input type="password" id="ConfirmarSenha" name="ConfirmarSenha" required />
+        </div>
+
+        <button type="submit" class="login-btn">Cadastrar</button>
+
+        <div id="cadastro-erro" class="erro"></div>
+
+      </form>
+    </div>
+
+  </div>
   <script src="cadastro.js"></script>
 </body>
 </html>

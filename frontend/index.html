@@ -5,18 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HiperCompras</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <h1>HiperCompras</h1>
+  <header class="upbar">
+
+    <div class="logo">
+      <img src="public/images/logo.png" alt="HiperCompras" onclick="window.location.href='index.html'">
+    </div>
+
+    <div class="search-container">
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="Buscar produtos..." />
+        <button id="search-btn" type="button">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+    </div>
+    
     <div id="user-area">
+
       <span id="login-btn" style="cursor:pointer; color:#fff; background:#2b7a78; padding:8px 16px; border-radius:5px;" onclick="window.location.href='login.html'">Login</span>
+
       <span id="user-info" style="display:none">
-        <span id="user-email"></span>
-        <span id="user-pontos"></span>
-        <button id="carrinho-btn" title="Carrinho" style="font-size:22px; margin-left:10px;">🛒</button>
-        <button id="logout-btn" title="Sair" style="margin-left:10px; font-size:16px;">Sair</button>
+        
+        <div class="user-dropdown">
+
+          <button class="user-icon-btn" title="Minha Conta">
+            <i class="fas fa-user"></i>
+          </button>
+
+          <div class="dropdown-content">
+
+            <div class="user-details">
+              <div id="user-name-display" class="user-info-item"></div>
+              <div id="user-pontos" class="user-info-item"></div>
+            </div>
+            
+            <hr>
+
+            <button id="logout-btn" class="dropdown-item">
+              <i class="fas fa-sign-out-alt"></i>
+              Sair
+            </button>
+          </div>
+
+        </div>
+
+        <button id="carrinho-btn" title="Carrinho" style="position:relative; font-size:22px; margin-left:10px; background:none; border:none; cursor:pointer; color:black;">
+          <i class="fas fa-shopping-cart"></i>
+          <span id="carrinho-contador" class="carrinho-badge">0</span>
+        </button>
+
       </span>
+
     </div>
   </header>
 

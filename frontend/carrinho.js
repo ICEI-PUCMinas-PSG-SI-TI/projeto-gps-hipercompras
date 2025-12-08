@@ -1,5 +1,9 @@
 
 document.addEventListener("DOMContentLoaded", () => {
+  // Inicializar funcionalidades do header
+  inicializarHeader();
+  atualizarContadorCarrinho();
+  
   const itensDiv = document.getElementById("carrinho-itens");
   const totalDiv = document.getElementById("carrinho-total");
   const pontosDiv = document.getElementById("carrinho-pontos");
@@ -74,15 +78,18 @@ document.addEventListener("DOMContentLoaded", () => {
   itensDiv.addEventListener("click", (e) => {
     const id = Number(e.target.getAttribute("data-id"));
     let carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
+    
     if (e.target.classList.contains("remover-item")) {
       carrinho = carrinho.filter(item => item.id !== id);
       localStorage.setItem("carrinho", JSON.stringify(carrinho));
+      atualizarContadorCarrinho();
       renderCarrinho();
     } else if (e.target.classList.contains("qtd-mais")) {
       const idx = carrinho.findIndex(item => Number(item.id) === id);
       if (idx > -1) {
         carrinho[idx].quantidade += 1;
         localStorage.setItem("carrinho", JSON.stringify(carrinho));
+        atualizarContadorCarrinho();
         renderCarrinho();
       }
     } else if (e.target.classList.contains("qtd-menos")) {
@@ -90,6 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (idx > -1 && carrinho[idx].quantidade > 1) {
         carrinho[idx].quantidade -= 1;
         localStorage.setItem("carrinho", JSON.stringify(carrinho));
+        atualizarContadorCarrinho();
         renderCarrinho();
       }
     }
@@ -125,6 +133,7 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem("usuario", JSON.stringify(usuario));
         alert(`Compra finalizada! Pontos ganhos: ${data.pontosGanhos}. Pontos totais: ${data.pontos}`);
         localStorage.removeItem("carrinho");
+        atualizarContadorCarrinho();
         renderCarrinho();
         if (window.renderUser) window.renderUser();
         else if (typeof window.location.reload === 'function') window.location.reload();
@@ -138,3 +147,59 @@ document.addEventListener("DOMContentLoaded", () => {
 
   renderCarrinho();
 });
+
+// Função para atualizar contador do carrinho
+function atualizarContadorCarrinho() {
+  const carrinho = JSON.parse(localStorage.getItem('carrinho') || '[]');
+  const contador = document.getElementById('carrinho-contador');
+  if (!contador) return;
+  
+  const totalItens = carrinho.reduce((total, item) => total + (item.quantidade || 1), 0);
+  contador.textContent = totalItens;
+  
+  if (totalItens === 0) {
+    contador.classList.add('hidden');
+  } else {
+    contador.classList.remove('hidden');
+  }
+}
+
+// Função para inicializar funcionalidades do header
+function inicializarHeader() {
+  const loginBtn = document.getElementById("login-btn");
+  const userInfo = document.getElementById("user-info");
+  const carrinhoBtn = document.getElementById("carrinho-btn");
+  const logoutBtn = document.getElementById("logout-btn");
+
+  // Verificar se usuário está logado
+  function renderUser() {
+    const usuario = JSON.parse(localStorage.getItem("usuario"));
+    if (usuario) {
+      if (loginBtn) loginBtn.style.display = "none";
+      if (userInfo) userInfo.style.display = "inline-block";
+      
+      const userNameDisplay = document.getElementById("user-name-display");
+      const userPontosDisplay = document.getElementById("user-pontos");
+      
+      if (userNameDisplay) userNameDisplay.textContent = usuario.nome || usuario.email;
+      if (userPontosDisplay) userPontosDisplay.textContent = `Pontos: ${usuario.pontos || 0}`;
+    } else {
+      if (loginBtn) loginBtn.style.display = "inline-block";
+      if (userInfo) userInfo.style.display = "none";
+    }
+  }
+
+  renderUser();
+
+  // Event listeners
+  if (carrinhoBtn) {
+    carrinhoBtn.onclick = () => window.location.href = "carrinho.html";
+  }
+  
+  if (logoutBtn) {
+    logoutBtn.onclick = () => {
+      localStorage.removeItem("usuario");
+      window.location.reload();
+    };
+  }
+}
