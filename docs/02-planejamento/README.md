@@ -1,4 +1,12 @@
-# Planejamento
+# 📋 Planejamento
+
+**Versão:** 1.0  
+**Data de Criação:** Dezembro 2025  
+**Última Atualização:** Dezembro 14, 2025  
+**Responsável:** Júlia de Mello (Scrum Master)  
+**Status:** ✅ Completo
+
+---
 
 > A fase de planejamento na gerência de projetos é um momento onde os detalhes do projeto são minuciosamente definidos para garantir uma execução bem-sucedida. 
 > Durante essa etapa, os gerentes de projeto e suas equipes elaboram um plano abrangente que aborda aspectos como cronograma, orçamento, recursos necessários, riscos identificados e métodos de controle. 
@@ -22,7 +30,7 @@
 
 -----
 
-# Escopo do Projeto
+# 🎯 Escopo do Projeto
 
 O **HiperCompras** é um aplicativo web desenvolvido para facilitar as compras no supermercado HiperBarato, oferecendo aos clientes uma experiência digital prática e eficiente. O sistema permitirá que os usuários naveguem pelo catálogo de produtos, adicionem itens ao carrinho de compras, acumulem pontos de fidelidade e gerenciem suas compras de forma online, com retirada presencial no estabelecimento.
 
@@ -51,13 +59,7 @@ Criar uma plataforma digital que simplifique o processo de compras, aumentando o
 - Edição de dados cadastrais dos usuários
 - Integração com sistemas reais de pagamento/logística
 
-> O escopo do projeto define os limites, objetivos e entregáveis do projeto, estabelecendo clareza sobre o que será realizado e o que está excluído do escopo. 
-> O escopo assegura a alocação adequada de recursos, evita desvios dos objetivos do projeto e garante que as expectativas dos stakeholders sejam atendidas. 
-> A definição do escopo inclui documentação detalhada dos requisitos, restrições e premissas do projeto. 
-> Ao longo do ciclo de vida do projeto, a gestão do escopo também inclui o controle de mudanças, garantindo que qualquer ajuste seja avaliado quanto ao seu impacto e aprovado de maneira adequada. 
-> Utilize como referência a documentação existente na [Fase de Iniciação](/docs/01-iniciacao).
-
-# Estrutura Analítica do Projeto
+# 📊 Estrutura Analítica do Projeto
 
 A Estrutura Analítica do Projeto (EAP) do HiperCompras organiza todas as entregas e atividades necessárias para o desenvolvimento completo da aplicação. A estrutura está dividida em cinco grandes fases, conforme a metodologia de gerenciamento de projetos adotada:
 
@@ -115,25 +117,19 @@ A Estrutura Analítica do Projeto (EAP) do HiperCompras organiza todas as entreg
 - **WP5:** Testes e Garantia de Qualidade
 - **WP6:** Documentação e Entrega
 
-> A Estrutura Analítica do Projeto (EAP) proporciona uma representação hierárquica atividades que compõem um projeto. 
-> Organizando o escopo do projeto em componentes gerenciáveis e compreensíveis, a EAP facilita a decomposição do trabalho em partes menores, tornando mais fácil o planejamento, a atribuição de responsabilidades e o monitoramento do progresso. 
-> Cada elemento na estrutura representa uma parcela específica do trabalho a ser realizado, proporcionando clareza sobre as inter-relações entre as diferentes partes do projeto. 
-> A EAP serve como a base para a criação do cronograma do projeto, a alocação de recursos e a identificação de dependências. 
-> Essa abordagem estruturada contribui significativamente para o sucesso do projeto, garantindo uma compreensão abrangente do escopo e uma base sólida para a gestão eficaz do trabalho ao longo do ciclo de vida do projeto.
-
-> Crie uma nova imagem da Estrutura Analítica do Projeto. Não se esqueça de adicionar o documento editável no repositório.
+### Representação Visual da WBS
 
 ![Estrutura Analítica do Projeto](images/exemplo_wbs.png)
 
-> Softwares recomendados: 
-> * [WBS Schedule Pro (Demo)](https://www.criticaltools.com/)
-> * [Draw.io](https://app.diagrams.net/)
-> * [ProjectLibre](https://www.projectlibre.com/)
+> **Softwares recomendados para criar a WBS:**
+> - [WBS Schedule Pro (Demo)](https://www.criticaltools.com/)
+> - [Draw.io](https://app.diagrams.net/)
+> - [ProjectLibre](https://www.projectlibre.com/)
 
 ### Documento Editável
 
-> Você deve atualiza o seguinte link (ou link correspondente), como o arquivo editável de geração da WBS:
-- [Estrutura Analítica do Projeto - Editável](artefatos/estrutura_analitica_projeto.wbs)
+O arquivo editável da Estrutura Analítica do Projeto está disponível para atualização:
+- **[Estrutura Analítica do Projeto - Editável](artefatos/estrutura_analitica_projeto.wbs)**
 
 -----
 
@@ -156,13 +152,20 @@ A Estrutura Analítica do Projeto (EAP) do HiperCompras organiza todas as entreg
 
 
 
-### Documento Editável
+### Descrição da Matriz RACI
 
-- [Matriz de Responsabilidades (RACI) - Editável](file:///Users/amandaguimaraes/Downloads/Matriz%20RACI.pdf)
+A Matriz de Responsabilidades (RACI) do projeto HiperCompras define claramente os papéis e responsabilidades de cada membro da equipe em relação às principais atividades do projeto:
+
+- **R (Responsável):** Quem executa a atividade
+- **A (Aprovador/Accountable):** Quem tem autoridade final sobre a atividade
+- **C (Consultado):** Quem fornece informações ou expertise
+- **I (Informado):** Quem precisa ser mantido atualizado
+
+Esta estrutura garante clareza de papéis, evita duplicação de esforços e facilita a comunicação dentro da equipe.
 
 -----
 
-# Cronograma do Projeto
+# 📅 Cronograma do Projeto
 
 O cronograma do projeto HiperCompras foi estruturado para um período de execução de **60 horas** de trabalho, distribuídas entre **28 de agosto de 2025** e **04 de dezembro de 2025**. O desenvolvimento segue uma abordagem ágil com sprints semanais, permitindo entregas incrementais e ajustes contínuos.
 
@@ -214,19 +217,13 @@ O cronograma do projeto HiperCompras foi estruturado para um período de execuç
 - Os testes de integração dependem da conclusão de ambos frontend e backend
 - A validação final depende da conclusão de todos os testes
 
-> O cronograma do projeto fornece uma representação temporal detalhada de todas as atividades, marcos e eventos ao longo do ciclo de vida do projeto. 
-> Elaborado durante o planejamento, o cronograma é uma ferramenta que oferece uma visão das interdependências entre as tarefas, alocando recursos e definindo prazos para as entregas.
-> Utilizando técnicas como a análise de rede (PERT/CPM) e estimativas de duração, o cronograma ajuda na identificação de caminhos críticos, permitindo aos gestores de projeto otimizar recursos, antecipar potenciais atrasos e tomar decisões. 
-> Além disso, o cronograma serve como um guia para monitorar o progresso, comunicar efetivamente com a equipe e as partes interessadas, e ajustar estratégias para garantir a conclusão bem-sucedida do projeto dentro dos prazos estabelecidos.
-
 ### Documento Editável
 
-> Você deve atualiza o seguinte link (ou link correspondente), como o arquivo editável do Cronograma do Projeto:
 - [Cronograma e Orçamento do Projeto - Editável](artefatos/cronograma_orcamento.pod)
 
 -----
 
-# Orçamento do Projeto
+# 💰 Orçamento do Projeto
 
 O orçamento total estimado para o projeto HiperCompras é de **R$ 41.260,00**, considerando recursos humanos, infraestrutura de hospedagem e serviços necessários para o desenvolvimento completo do sistema.
 
@@ -275,18 +272,11 @@ O orçamento total estimado para o projeto HiperCompras é de **R$ 41.260,00**, 
 - Não há custos com licenças de software, pois todas as tecnologias são open-source
 - A hospedagem pode ser ajustada conforme necessidades de escalabilidade
 
-> O orçamento do projeto envolve a estimativa e alocação de recursos financeiros necessários para a execução bem-sucedida do projeto, abrangendo custos diretos e indiretos, despesas operacionais, investimentos em equipamentos, pessoal, entre outros. 
-> O desenvolvimento do orçamento deve considerar variáveis como riscos, imprevistos e mudanças no escopo. 
-> Uma vez estabelecido, o orçamento serve como guia para a utilização eficiente dos recursos financeiros ao longo do projeto. 
-> A gestão do orçamento não apenas ajuda a controlar os custos, mas também fornece transparência e prestação de contas, permitindo que gestores tomem decisões informadas e evitem surpresas financeiras ao longo do ciclo de vida do projeto. 
-> Assim, o orçamento contribui para o sucesso do projeto, garantindo a viabilidade econômica e a entrega dentro das expectativas financeiras estabelecidas.
-
 ### Documento Editável
 
-> Você deve atualiza o seguinte link (ou link correspondente), como o arquivo editável do Orçamento do Projeto:
 - [Cronograma e Orçamento do Projeto - Editável](artefatos/cronograma_orcamento.pod)
 
-# Planos de Gerenciamento
+# 📌 Planos de Gerenciamento
 
 > Os planos de gerenciamento do projetos consolidam as diretrizes e estratégias para a execução bem-sucedida de um empreendimento. 
 > Ele abrange diversos aspectos, como escopo, cronograma, custos, riscos, qualidade, recursos humanos, comunicação e aquisições, proporcionando uma visão abrangente e integrada do projeto. 
@@ -327,32 +317,6 @@ O Plano de Qualidade do projeto HiperCompras estabelece os critérios, processos
 - Número de bugs críticos (meta: 0)
 - Satisfação do cliente/usuário (avaliação final)
 - Taxa de conclusão das funcionalidades planejadas
-
-> O Plano de Qualidade auxilia a garantir que as entregas do projeto atendam aos padrões de qualidade definidos. 
-> Este plano abrange atividades como definição de padrões, procedimentos de garantia de qualidade, critérios de aceitação e processos de monitoramento e controle da qualidade ao longo do ciclo de vida do projeto. 
-> Ao identificar metas de qualidade, responsabilidades da equipe, e métricas de avaliação, o Plano de Qualidade busca assegurar que o projeto atinja ou exceda as expectativas dos stakeholders em termos de desempenho e conformidade. 
-> A adoção de políticas de qualidade auxilia a mitigar riscos, promove a confiança nas entregas do projeto e, por fim, aumenta a probabilidade de sucesso do empreendimento. 
-
-> Referência - Conceitual
-> * https://www.researchgate.net/publication/230636169_Software_Quality_Assurance
-
-> Normas de Qualidade:
-> * https://repositorium.uminho.pt/bitstream/1822/27266/1/Tese_MEI_PG19676_Juliana%20Oliveira.pdf
-> * https://cin.ufpe.br/~processos/TAES3/Livro/00-LIVRO/07-Normas%20ISO%20e%20Qualidade%20de%20Software-v6_CORRIGIDO.pdf
-
-> Métricas de software:
-> * https://repositorio.unicamp.br/Busca/Download?codigoArquivo=489087
-> * https://lume.ufrgs.br/bitstream/handle/10183/66095/000870909.pdf?sequence=1
-> * https://www.computerweekly.com/br/tip/23-metricas-de-desenvolvimento-de-software-que-devem-ser-monitoradas
-
-> Processos de Garantia da Qualidade de Software
-> * https://ceur-ws.org/Vol-3200/paper22.pdf
-> * https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=d6bd60206282a2d4449e414e81a703612ef78a0c
-> * https://www.testbytes.net/blog/quality-assurance-process-methodology/
-> * https://www.projectmanager.com/blog/quality-assurance-and-testing
-
-> Você pode utilizar como referência o seguinte documento:
-> [Checklist de Qualidade](artefatos/checklist_qualidade.docx)
 
 ### Artefatos a serem verificados
 
@@ -403,27 +367,41 @@ O Plano de Qualidade do projeto HiperCompras estabelece os critérios, processos
 | Inspeção de Interface | Verificação de conformidade com protótipo UI/UX |
 | Testes de Aceitação | Validação com stakeholders ao final de cada sprint |
 
-```diff
-+ Tarefa 09:
-+ Fim da seção a ser atualizada.
-```
-
-```diff
-+ Tarefa 10:
-+ Especificação de Produto para Aquisição
-```
-
 ## Plano de Aquisição
 
-> O Plano de Aquisições define o processo relacionado à aquisição de bens e serviços necessários para a execução do projeto. 
-> Este plano abrange a identificação de necessidades, a seleção de fornecedores, a elaboração de contratos, e a gestão do relacionamento com os fornecedores durante do ciclo de vida do projeto. 
-> O Plano de Aquisições visa garantir a aquisição eficiente e eficaz dos recursos necessários, minimizando riscos e custos. 
-> Além disso, ele proporciona transparência nas relações com fornecedores, promovendo a conformidade com os prazos estabelecidos e padrões de qualidade. 
+O Plano de Aquisições define o processo relacionado à aquisição de bens e serviços necessários para a execução do projeto HiperCompras. Este plano abrange a identificação de necessidades, a seleção de fornecedores, a elaboração de contratos, e a gestão do relacionamento com os fornecedores durante o ciclo de vida do projeto.
+
+**Objetivo:**
+Garantir a aquisição eficiente e eficaz dos recursos necessários, minimizando riscos e custos, promovendo a conformidade com prazos e padrões de qualidade.
+
+**Produtos e Serviços a Adquirir:**
+
+| Item | Descrição | Fornecedor | Prazo | Custo |
+|------|-----------|-----------|-------|-------|
+| Hospedagem | Servidor em nuvem para backend e banco de dados | Heroku/Vercel/AWS | Contínuo | R$ 60,00 |
+| Domínio | Registro de domínio (se necessário) | GoDaddy/Namecheap | Projeto completo | Variável |
+| Certificado SSL | Segurança de transmissão de dados | Let's Encrypt (gratuito) | Contínuo | Gratuito |
+| Ferramentas de Design | Prototipagem UI/UX | Figma (plano educacional) | Projeto completo | Gratuito |
+| Ambiente de Desenvolvimento | IDE e ferramentas de coding | Open Source (GitHub, VSCode) | Contínuo | Gratuito |
+
+**Critérios de Seleção de Fornecedores:**
+- Confiabilidade e histórico de uptime
+- Suporte técnico responsivo
+- Conformidade com LGPD (proteção de dados)
+- Custo-benefício adequado
+- Compatibilidade com stack tecnológico do projeto
+
+**Processo de Aquisição:**
+1. Identificação de necessidades
+2. Pesquisa de fornecedores disponíveis
+3. Comparação de propostas
+4. Negociação de termos
+5. Assinatura de contrato/acordo
+6. Monitoramento de serviços
 
 ### Documento Editável
 
-> Você deve atualiza o seguinte link (ou link correspondente), como o arquivo editável de geração da WBS:
-- [Especificação Produto Aquisição - Editável](artefatos/aquisicao_produtos.docx)
+- **[Especificação de Produtos para Aquisição - Editável](artefatos/aquisicao_produtos.docx)**
 
 ## Plano de Comunicação
 
@@ -453,7 +431,7 @@ O Plano de Comunicação do projeto HiperCompras define os canais, frequência e
 > O Plano de Comunicação estabelece estratégias e diretrizes para facilitar a troca de informações entre os membros da equipe e as partes interessadas. 
 > Este plano abrange aspectos como os meios de comunicação, a frequência das atualizações, os canais de distribuição de informações e os responsáveis pela comunicação. 
 > Uma comunicação eficiente não apenas previne mal-entendidos e conflitos, mas também fortalece o engajamento da equipe e o apoio das partes interessadas. 
->
+
 > Você pode utilizar como referência o seguinte documento:
 - [Plano de Gerenciamento de Comunicação - Editável](artefatos/plano_comunicacao.docx)
 
@@ -483,13 +461,6 @@ O Plano de Comunicação do projeto HiperCompras define os canais, frequência e
 > - Responsável: pessoa responsável pela comunicação.
 
 ### Plano de Gerência de Comunicação
-
-> Indique:
-> - Ferramentas utilizadas no projeto - adicionar link de acesso às ferramentas
-> - Papéis: responsáveis pelas correspondentes no projeto
-> - Princípios gerais: indica quais princípios serão adotados no plano de comunicação, como clareza, objetividade, impessoalidade, imparcialidade e cordialidade. Detalhar.
->
-> Plano de Gerência de Configuração: definir, em linhas gerais, como (ferramenta) serão controladas e distribuídas as versões e se haverá algum controle de responsabilidades.
 
 - Ferramentas utilizadas:
   - [GitHub](https://github.com) - Repositório de código e gestão de projetos
@@ -523,7 +494,7 @@ O Plano de Comunicação do projeto HiperCompras define os canais, frequência e
 - Documentação versionada junto com o código
 - Responsabilidade de cada desenvolvedor sobre suas features
 
-## Plano de Riscos
+## ⚠️ Plano de Riscos
 
 O Plano de Riscos do projeto HiperCompras identifica, avalia e estabelece estratégias para mitigar os principais riscos que podem impactar o sucesso do projeto. A gestão proativa de riscos é essencial para antecipar problemas e garantir a entrega dentro do prazo, escopo e orçamento estabelecidos.
 
