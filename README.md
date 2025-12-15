@@ -82,3 +82,7 @@ Limites e próximos passos:
 - Stack: React, Node.js/Express, SQLite, Axios
 - Requisitos: site funcional, interface intuitiva, estética consistente
 - Aceitação: entregue e apresentado em 12/12/2025
+
+- Kanban: https://github.com/orgs/ICEI-PUCMinas-PSG-SI-TI/projects/148/views/1
+- Cronograma e Orçamento: [ProjectLibre](docs/02-planejamento/artefatos/HiperCompras.pod)
+
