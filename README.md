@@ -1,10 +1,10 @@
 ![ICEI](images/icei-pucminas.png)
 
-# Nome do projeto 
+# HiperCompras
 
-...... HIPERCOMPRAS ......
+HiperCompras é uma aplicação web acadêmica que simula o processo de compras no supermercado HiperBarato. O projeto entrega um catálogo de produtos, autenticação de usuários, carrinho de compras e sistema de pontos de fidelidade, com frontend em React e backend em Node.js/Express, utilizando SQLite para persistência. O objetivo é proporcionar uma experiência prática de e-commerce (sem pagamento online), focando em boas práticas de desenvolvimento, integração entre camadas e documentação completa de gerenciamento de projetos.
 
-> Descreva, em um ou dois parágrafos, um resumo do projeto (principais objetivos e justificativa).
+Escopo realista: funcionalidades de compra e fidelidade foram entregues; integrações de pagamento real e sistema de estacionamento ficaram como escopo futuro (v2.0). Orçamento financeiro: R$ 0,00, todo o trabalho foi realizado com tempo/esforço dos integrantes.
 
 ## Alunos integrantes da equipe
 
@@ -19,10 +19,11 @@
 
 ## Gerenciamento do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO (OPCIONAL) ......
-
-> Adicione aqui informações sobre o projeto que será gerenciado. 
-> Indique informações importantes sobre o projeto.
+- Metodologia: ágil com sprints semanais e Kanban (GitHub Projects)
+- Fases: Iniciação, Planejamento, Execução, Monitoramento, Encerramento
+- Entregas principais: Frontend (React), Backend (API REST), Banco (SQLite), Documentação
+- Orçamento: R$ 0,00 (projeto acadêmico, esforço/tempo)
+- Apresentação em sala: 12/12/2025
 
 Fases do Gerenciamento do Projeto:
 1. [Iniciação](docs/01-iniciacao)
@@ -31,21 +32,53 @@ Fases do Gerenciamento do Projeto:
 4. [Monitoramento](docs/04-monitoramento)
 5. [Encerramento](docs/05-encerramento)
 
-## Apresentação do Trabalho
+## Estrutura do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+```
+GPS-HiperCompras-master/
+├─ README.md
+├─ backend/
+│  ├─ package.json
+│  └─ src/
+│     ├─ server.js        # API REST (Express, CORS)
+│     └─ database.js      # SQLite schema e conexão
+├─ frontend/
+│  ├─ package.json
+│  ├─ public/
+│  │  └─ index.html
+│  └─ src/
+│     ├─ App.js
+│     ├─ index.js
+│     ├─ components/
+│     │  ├─ Header.js
+│     │  └─ ProductCard.js
+│     └─ pages/
+│        ├─ Home.js
+│        ├─ Login.js
+│        └─ ProductPage.js
+├─ docs/
+│  ├─ 01-iniciacao/
+│  ├─ 02-planejamento/
+│  ├─ 03-execucao/
+│  ├─ 04-monitoramento/
+│  └─ 05-encerramento/
+└─ images/
+```
 
-> Adicione aqui o vídeo explicativo do trabalho.
-> Utilize a estrutura (link) abaixo para apresentação do vídeo.
-> O vídeo deve ser postado obrigatoriamente de forma pública no Youtube ou qualquer outra plataforma 
+Principais funcionalidades:
+- Autenticação (cadastro/login)
+- Catálogo e filtro de produtos
+- Carrinho de compras
+- Sistema de pontos de fidelidade
+- Integração frontend-backend via Axios
 
-> A imagem abaixo deve ser substituída por uma capa do vídeo de apresentação do trabalho.
-
-[![Imagem do Trabalho](images/pucminas-video-youtube.jpg)](https://www.youtube.com/watch?v=unq_cZ6NOwk)
+Limites e próximos passos:
+- Pagamento real e estacionamento não implementados (v2.0 proposto)
+- Recomendações: documentação de API com Swagger, CI/CD, testes automatizados
 
 ## Informações Adicionais
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua aqui informações extra sobre o projeto.
-> Caso não existam informações extras, remova a seção.
+- Ambiente: Visual Studio Code, Git/GitHub, Google Docs, Figma
+- Stack: React, Node.js/Express, SQLite, Axios
+- Requisitos: site funcional, interface intuitiva, estética consistente
+- Aceitação: entregue e apresentado em 12/12/2025
