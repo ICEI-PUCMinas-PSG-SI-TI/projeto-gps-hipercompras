@@ -1,3 +1,4 @@
+<a name="planejamento"></a>
 # 📋 Planejamento
 
 **Versão:** 1.0  
@@ -30,6 +31,7 @@
 
 -----
 
+<a name="escopo-do-projeto"></a>
 # 🎯 Escopo do Projeto
 
 O **HiperCompras** é um aplicativo web desenvolvido para facilitar as compras no supermercado HiperBarato, oferecendo aos clientes uma experiência digital prática e eficiente. O sistema permitirá que os usuários naveguem pelo catálogo de produtos, adicionem itens ao carrinho de compras, acumulem pontos de fidelidade e gerenciem suas compras de forma online, com retirada presencial no estabelecimento.
@@ -59,6 +61,7 @@ Criar uma plataforma digital que simplifique o processo de compras, aumentando o
 - Edição de dados cadastrais dos usuários
 - Integração com sistemas reais de pagamento/logística
 
+<a name="estrutura-analítica-do-projeto"></a>
 # 📊 Estrutura Analítica do Projeto
 
 A Estrutura Analítica do Projeto (EAP) do HiperCompras organiza todas as entregas e atividades necessárias para o desenvolvimento completo da aplicação. A estrutura está dividida em cinco grandes fases, conforme a metodologia de gerenciamento de projetos adotada:
@@ -128,6 +131,7 @@ A Estrutura Analítica do Projeto (EAP) do HiperCompras organiza todas as entreg
 
 -----
 
+<a name="matriz-de-responsabilidades"></a>
 # Matriz de Responsabilidades
 
 
@@ -160,6 +164,7 @@ Esta estrutura garante clareza de papéis, evita duplicação de esforços e fac
 
 -----
 
+<a name="cronograma-do-projeto"></a>
 # 📅 Cronograma do Projeto
 
 O cronograma do projeto HiperCompras foi estruturado para um período de execução de **60 horas** de trabalho, distribuídas entre **28 de agosto de 2025** e **04 de dezembro de 2025**. O desenvolvimento segue uma abordagem ágil com sprints semanais, permitindo entregas incrementais e ajustes contínuos.
@@ -218,6 +223,7 @@ O cronograma do projeto HiperCompras foi estruturado para um período de execuç
 
 -----
 
+<a name="orçamento-do-projeto"></a>
 # 💰 Orçamento do Projeto
 
 O orçamento realista do projeto HiperCompras é de **R$ 0,00 (zero reais)**. Como atividade acadêmica, todo o trabalho foi realizado com tempo e esforço dos integrantes, sem custos financeiros diretos.
@@ -258,6 +264,7 @@ O orçamento realista do projeto HiperCompras é de **R$ 0,00 (zero reais)**. Co
 
 - [Cronograma e Orçamento do Projeto](artefatos/HiperCompras.pod)
 
+<a name="planos-de-gerenciamento"></a>
 # 📌 Planos de Gerenciamento
 
 > Os planos de gerenciamento do projetos consolidam as diretrizes e estratégias para a execução bem-sucedida de um empreendimento. 
@@ -265,6 +272,7 @@ O orçamento realista do projeto HiperCompras é de **R$ 0,00 (zero reais)**. Co
 > Este plano funciona como um guia mestre que orienta a equipe de projeto e as partes interessadas ao longo do ciclo de vida do projeto, estabelecendo expectativas, responsabilidades e processos. 
 > Além disso, serve como um instrumento de comunicação, alinhando as expectativas entre os membros da equipe e as partes interessadas, mitigando riscos e fornecendo uma estrutura sólida para a tomada de decisões. 
 
+<a name="plano-de-qualidade"></a>
 ## Plano de Qualidade
 
 O Plano de Qualidade do projeto HiperCompras estabelece os critérios, processos e métricas que garantirão que o sistema atenda aos requisitos funcionais e não funcionais estabelecidos, proporcionando uma experiência satisfatória aos usuários finais.
@@ -349,6 +357,7 @@ O Plano de Qualidade do projeto HiperCompras estabelece os critérios, processos
 | Inspeção de Interface | Verificação de conformidade com protótipo UI/UX |
 | Testes de Aceitação | Validação com stakeholders ao final de cada sprint |
 
+<a name="plano-de-aquisição"></a>
 ## Plano de Aquisição
 
 O Plano de Aquisições define o processo relacionado à aquisição de bens e serviços necessários para a execução do projeto HiperCompras. Este plano abrange a identificação de necessidades, a seleção de fornecedores, a elaboração de contratos, e a gestão do relacionamento com os fornecedores durante o ciclo de vida do projeto.
@@ -385,6 +394,7 @@ Garantir a aquisição eficiente e eficaz dos recursos necessários, minimizando
 
 - **[Especificação de Produtos para Aquisição](artefatos/Solicitacao_Compra.pdf)**
 
+<a name="plano-de-comunicação"></a>
 ## Plano de Comunicação
 
 O Plano de Comunicação do projeto HiperCompras define os canais, frequência e responsáveis pela comunicação entre a equipe de desenvolvimento e as partes interessadas. Uma comunicação eficaz é fundamental para o alinhamento de expectativas, acompanhamento do progresso e resolução rápida de impedimentos.
@@ -477,6 +487,7 @@ O Plano de Comunicação do projeto HiperCompras define os canais, frequência e
 - Documentação versionada junto com o código
 - Responsabilidade de cada desenvolvedor sobre suas features
 
+<a name="plano-de-riscos"></a>
 ## ⚠️ Plano de Riscos
 
 O Plano de Riscos do projeto HiperCompras identifica, avalia e estabelece estratégias para mitigar os principais riscos que podem impactar o sucesso do projeto. A gestão proativa de riscos é essencial para antecipar problemas e garantir a entrega dentro do prazo, escopo e orçamento estabelecidos.
