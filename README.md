@@ -84,5 +84,5 @@ Limites e próximos passos:
 - Aceitação: entregue e apresentado em 12/12/2025
 
 - Kanban: https://github.com/orgs/ICEI-PUCMinas-PSG-SI-TI/projects/148/views/1
-- Cronograma e Orçamento (ProjectLibre): docs/02-planejamento/artefatos/HiperCompras.pod
+- Cronograma e Orçamento: [ProjectLibre](docs/02-planejamento/artefatos/HiperCompras.pod)
 
