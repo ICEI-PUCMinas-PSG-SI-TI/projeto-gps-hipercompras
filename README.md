@@ -4,7 +4,7 @@
 
 HiperCompras é uma aplicação web acadêmica que simula o processo de compras no supermercado HiperBarato. O projeto entrega um catálogo de produtos, autenticação de usuários, carrinho de compras e sistema de pontos de fidelidade, com frontend em React e backend em Node.js/Express, utilizando SQLite para persistência. O objetivo é proporcionar uma experiência prática de e-commerce (sem pagamento online), focando em boas práticas de desenvolvimento, integração entre camadas e documentação completa de gerenciamento de projetos.
 
-Escopo realista: funcionalidades de compra e fidelidade foram entregues; integrações de pagamento real e sistema de estacionamento ficaram como escopo futuro (v2.0). Orçamento financeiro: R$ 0,00 — todo o trabalho foi realizado com tempo/esforço dos integrantes.
+Escopo realista: funcionalidades de compra e fidelidade foram entregues; integrações de pagamento real e sistema de estacionamento ficaram como escopo futuro (v2.0). Orçamento financeiro: R$ 0,00, todo o trabalho foi realizado com tempo/esforço dos integrantes.
 
 ## Alunos integrantes da equipe
 
