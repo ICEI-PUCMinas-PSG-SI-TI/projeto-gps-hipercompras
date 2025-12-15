@@ -126,11 +126,6 @@ A Estrutura Analítica do Projeto (EAP) do HiperCompras organiza todas as entreg
 > - [Draw.io](https://app.diagrams.net/)
 > - [ProjectLibre](https://www.projectlibre.com/)
 
-### Documento Editável
-
-O arquivo editável da Estrutura Analítica do Projeto está disponível para atualização:
-- **[Estrutura Analítica do Projeto - Editável](artefatos/estrutura_analitica_projeto.wbs)**
-
 -----
 
 # Matriz de Responsabilidades
@@ -217,64 +212,51 @@ O cronograma do projeto HiperCompras foi estruturado para um período de execuç
 - Os testes de integração dependem da conclusão de ambos frontend e backend
 - A validação final depende da conclusão de todos os testes
 
-### Documento Editável
+### Documento 
 
-- [Cronograma e Orçamento do Projeto - Editável](artefatos/cronograma_orcamento.pod)
+- [Cronograma e Orçamento do Projeto](artefatos/HiperCompras.pod)
 
 -----
 
 # 💰 Orçamento do Projeto
 
-O orçamento total estimado para o projeto HiperCompras é de **R$ 41.260,00**, considerando recursos humanos, infraestrutura de hospedagem e serviços necessários para o desenvolvimento completo do sistema.
+O orçamento realista do projeto HiperCompras é de **R$ 0,00 (zero reais)**. Como atividade acadêmica, todo o trabalho foi realizado com tempo e esforço dos integrantes, sem custos financeiros diretos.
 
-**Detalhamento dos Custos:**
+**Detalhamento dos Custos (real):**
 
-**1. Recursos Humanos (R$ 41.200,00)**
-- **Desenvolvedores (4 profissionais):** R$ 10.000,00 cada
-  - Amanda Canizela (Frontend Developer) - 50h × R$ 200/h = R$ 10.000
-  - Ariel Inácio (UI/UX Designer) - 50h × R$ 200/h = R$ 10.000
-  - Júlia de Mello (Scrum Master/Tester) - 50h × R$ 200/h = R$ 10.000
-  - Pedro Vitor (Backend Developer) - 50h × R$ 200/h = R$ 10.000
-- **Gestão e Stakeholders:** R$ 1.200,00
-  - Definição e contratação (10h × R$ 120/h)
+**1. Recursos Humanos (R$ 0,00 – esforço acadêmico)**
+- Integrantes contribuíram com cerca de 60 horas no total
+- Sem remuneração financeira; foco em aprendizado e entrega
 
-**2. Infraestrutura e Hospedagem (R$ 60,00)**
-- Hospedagem em nuvem para o período do projeto
-- Serviços de domínio e SSL (se aplicável)
+**2. Infraestrutura e Hospedagem (R$ 0,00)**
+- Desenvolvimento em ambiente local
+- Hospedagem e domínio não utilizados ou em planos gratuitos
 
-**3. Ferramentas e Tecnologias (Custo Zero)**
-- Node.js (gratuito)
-- React.js (gratuito)
-- SQLite (gratuito)
-- Visual Studio Code (gratuito)
-- Git/GitHub (gratuito)
-- Express.js e bibliotecas npm (gratuito)
+**3. Ferramentas e Tecnologias (R$ 0,00 – 100% gratuitas)**
+- Node.js, React.js, SQLite, VS Code, Git/GitHub, Express.js
+- Figma em plano educacional gratuito
 
-**Reserva de Contingência:** 10% do orçamento total (R$ 4.126,00)
-- Reserva para imprevistos, mudanças de escopo ou necessidades adicionais
+**Custo Total do Projeto:** R$ 0,00
 
-**Orçamento Total com Contingência:** R$ 45.386,00
+**Investimento Real:**
+- Tempo e esforço dos membros da equipe
+- Equipamentos pessoais
+- Aprendizado e transferência de conhecimento
 
-**Distribuição por Fase:**
-- Iniciação: R$ 1.200,00 (3%)
-- Planejamento: R$ 4.000,00 (10%)
-- Execução: R$ 32.000,00 (78%)
-- Monitoramento: R$ 2.000,00 (5%)
-- Encerramento: R$ 2.060,00 (4%)
-
-**Forma de Pagamento:**
-- Pagamentos mensais conforme entregas dos sprints
-- Liberação final após homologação do sistema
+**Distribuição de Esforço por Fase (estimado):**
+- Iniciação: 4h
+- Planejamento: 8h
+- Execução: 38h
+- Monitoramento: 6h
+- Encerramento: 4h
 
 **Observações:**
-- Os valores consideram o desenvolvimento completo do sistema em 60 horas de trabalho efetivo
-- Hardware próprio dos desenvolvedores será utilizado
-- Não há custos com licenças de software, pois todas as tecnologias são open-source
-- A hospedagem pode ser ajustada conforme necessidades de escalabilidade
+- Todos os recursos e ferramentas utilizados foram gratuitos
+- O projeto não incorreu em despesas financeiras
 
-### Documento Editável
+### Documento
 
-- [Cronograma e Orçamento do Projeto - Editável](artefatos/cronograma_orcamento.pod)
+- [Cronograma e Orçamento do Projeto](artefatos/HiperCompras.pod)
 
 # 📌 Planos de Gerenciamento
 
@@ -399,9 +381,9 @@ Garantir a aquisição eficiente e eficaz dos recursos necessários, minimizando
 5. Assinatura de contrato/acordo
 6. Monitoramento de serviços
 
-### Documento Editável
+### Documento
 
-- **[Especificação de Produtos para Aquisição - Editável](artefatos/aquisicao_produtos.docx)**
+- **[Especificação de Produtos para Aquisição](artefatos/Solicitacao_Compra.pdf)**
 
 ## Plano de Comunicação
 
@@ -432,8 +414,9 @@ O Plano de Comunicação do projeto HiperCompras define os canais, frequência e
 > Este plano abrange aspectos como os meios de comunicação, a frequência das atualizações, os canais de distribuição de informações e os responsáveis pela comunicação. 
 > Uma comunicação eficiente não apenas previne mal-entendidos e conflitos, mas também fortalece o engajamento da equipe e o apoio das partes interessadas. 
 
-> Você pode utilizar como referência o seguinte documento:
-- [Plano de Gerenciamento de Comunicação - Editável](artefatos/plano_comunicacao.docx)
+### Documento
+
+- **[Plano de Gerenciamento de Comunicação](artefatos/Plano_Comunicacao.pdf)**
 
 ### Plano de Comunicação do Projeto
 
@@ -524,9 +507,10 @@ Identificar riscos potenciais em todas as fases do projeto e estabelecer medidas
 > O plano de riscos não apenas destaca os perigos em potencial, mas também estabelece respostas e estratégias de contingência. 
 > Isso inclui a definição de ações preventivas para mitigar riscos antes que se materializem, bem como estratégias de mitigação para minimizar seu impacto se ocorrerem. 
 > Além disso, a identificação de pontos de monitoramento contínuo ao longo do projeto permite uma resposta ágil às mudanças nas condições do ambiente.
->
-> Você pode utilizar como referência o seguinte documento:
-- [Plano de Gerenciamento de Riscos - Editável](artefatos/plano_riscos.xls)
+
+### Documento
+
+- **[Plano de Gerenciamento de Riscos](artefatos/Lista_Riscos.pdf)**
 
 | Categoria do Risco  | Descrição do Risco | Impacto       | Risco         | Medidas de Prevenção (Contramedidas) | Medidas de Contingência (Mitigação) | 
 |---------------------|--------------------|---------------|---------------|--------------------------------------|-------------------------------------|
