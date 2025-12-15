@@ -119,7 +119,7 @@ A Estrutura Analítica do Projeto (EAP) do HiperCompras organiza todas as entreg
 
 ### Representação Visual da WBS
 
-![Estrutura Analítica do Projeto](images/exemplo_wbs.png)
+![Estrutura Analítica do Projeto](images/EAP.pdf)
 
 > **Softwares recomendados para criar a WBS:**
 > - [WBS Schedule Pro (Demo)](https://www.criticaltools.com/)
